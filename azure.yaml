@@ -1,0 +1,15 @@
+name: azure-llm-base
+metadata:
+  template: pedanticgeek.io
+services:
+  backend:
+    project: ./app/backend
+    language: py
+    host: appservice
+    hooks:
+      prepackage:
+        posix:
+          shell: sh
+          run: pipenv requirements > requirements.txt;cd ../frontend;npm install;npm run build;
+          interactive: true
+          continueOnError: false

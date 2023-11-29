@@ -1,0 +1,90 @@
+.uploadsContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadsTopSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.uploadsTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .uploadsTitle {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .uploadsSubTitle {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+}
+
+.uploadsDocumentsInput {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadsDocumentsTable {
+    width: auto;
+    min-width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.documentInputContainer {
+    border-radius: 8px;
+    box-shadow:
+        0px 8px 16px rgba(0, 0, 0, 0.14),
+        0px 0px 2px rgba(0, 0, 0, 0.12);
+    height: 90px;
+    width: 40%;
+    padding: 15px;
+    background: white;
+    height: auto;
+}
+
+.deleteButtonContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteButton {
+    font-family: "Muli", sans-serif;
+    background-color: #a8103e;
+    color: aliceblue;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+.deleteButton:hover {
+    background-color: #a8103e8c;
+}
+
+.cancelButton {
+    font-family: "Muli", sans-serif;
+    background-color: #1052a8;
+    color: aliceblue;
+    border-radius: 4px;
+    border-width: 0;
+    margin-left: 10px;
+}

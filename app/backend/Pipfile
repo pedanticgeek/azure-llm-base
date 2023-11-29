@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+quart = "*"
+azure-core = "*"
+azure-ai-formrecognizer = "*"
+azure-identity = "*"
+azure-search-documents = "*"
+azure-storage-blob = "*"
+azure-mgmt-containerinstance = "*"
+azure-mgmt-storage = "*"
+azure-storage-queue = "*"
+azure-mgmt-containerregistry = "*"
+quart-cors = "*"
+tiktoken = "*"
+tenacity = "*"
+pymupdf = "*"
+aiohttp = "*"
+gunicorn = "*"
+uvicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

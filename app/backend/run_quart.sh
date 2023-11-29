@@ -1,0 +1,1 @@
+PIPENV_DOTENV_LOCATION=../../.azure/llm-base/.env pipenv run gunicorn main:app --reload

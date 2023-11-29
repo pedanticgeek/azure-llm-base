@@ -1,0 +1,50 @@
+.uploadsContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadsTopSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.uploadsTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .uploadsTitle {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .uploadsSubTitle {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+}
+
+.uploadsDocumentsInput {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadsDocumentsTable {
+    width: auto;
+    min-width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
